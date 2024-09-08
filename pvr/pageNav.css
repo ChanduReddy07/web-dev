@@ -1,0 +1,52 @@
+.page-nav-div {
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .nav-list {
+    height: 60px;
+    display: flex;
+    line-height: 40px;
+    margin-left: 157px;
+    margin-right: 157px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .nav-list > li {
+    list-style-type: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: poppins, Arial;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .nav-list > li > a {
+    color: black;
+    text-decoration: none;
+  }
+
+
+  /* ..................................... */
+
+  .dx-playhouse {
+    margin-top: 0;
+    /* margin-bottom: 0; */
+    display: flex;
+  }
+  .dx-playhouse > div {
+    display: flex;
+    margin-left: 157px;
+    margin-right: 157px;
+    margin-top: 0;
+    margin-bottom: 0;  
+    padding-left: 20px;
+    padding-right: 20px;  
+  }
+  .dx-playhouse > div > div{
+    padding: 0px 10px;
+    
+  }
+  .dx-playhouse > div > div > img {
+    height: 30px;
+  }

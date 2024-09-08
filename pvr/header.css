@@ -1,0 +1,148 @@
+.Header{
+    height: 60px;
+    display: flex;
+    background-color: #f1f1f1;
+    position: fixed;
+    /* flex-direction: row; */
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+.left-part{
+    display: flex;
+    width: 50%;
+}
+.logo-div {
+    padding: 10px 10px;
+  }
+  .logo-img {
+    width: 60px;
+    height: 40px;
+    height: 40px;
+  }
+  .left-items {
+    display: flex;
+    width: 90%;
+    
+  }
+  
+
+
+
+  @media (max-width: 1050px) {
+    .left-items {
+      display: none;
+    }
+  }
+  .home-a-home {
+    text-decoration: none;
+    background-color: #ffcb05;
+    height: 30px;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    font-size: 12px;
+    font-family: poppins ,Arial;
+    font-weight: 500;
+    line-height: 30px;
+    color: black;
+    gap: 4px;
+    padding: 1px 12px;
+  }
+  .home-a {
+    text-decoration: none;
+    /* background-color: #ffcb05; */
+    height: 30px;
+    width: 100%;
+    border-radius: 4px;
+    display: flex;
+    font-size: 12px;
+    font-family: poppins ,Arial;
+    font-weight: 500;
+    line-height: 30px;
+    color: black;
+    gap: 4px;
+    padding: 1px 12px;
+  }
+  .home-a:hover {
+    background-color: silver;
+  }
+  .items-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+  }
+  .item-img {
+    width: 17px;
+  }
+  
+
+
+
+  .right-part {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    font-family: poppins ,Arial;
+    font-weight: 300;
+    font-size: 10px;
+    gap: 15px;
+    margin-right: 20px;
+  }
+  .search-div{
+    width: 43px;
+  }
+  .search-a{
+    background-color: rgb(240, 240, 240);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .location-div{ 
+    display: flex;
+    align-items: center;
+  }
+  .location-a{
+    text-decoration: none;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    line-height: 40px;
+    display: flex;
+    gap: 4px;
+    padding: 0px 8px;
+    color: black;
+    border: 1px solid #ddd;
+  }
+  .location-img{
+    width: 20px;
+  }
+
+
+
+
+
+
+
+  /* <div class="right-part">
+        <div class="right-item-div">
+          <button class="right-item">
+            <img class="search-img" src="/assets/search-b.svg" alt="" />
+          </button>
+          <button class="right-item">
+            <img class="location-img" src="/assets/location-new.svg" alt="" />
+            <p>Hyderabad</p>
+          </button>
+          <button class="right-item">
+            <img class="profile-img" src="/assets/profile-icon.svg" alt="" />
+            <p>Login</p>
+          </button>
+        </div> */
